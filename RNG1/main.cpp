@@ -7,9 +7,9 @@ int main() {
 	int icMin;
 	int icMax;
 	int iguess;
-	inGuesses = 5;
+	inGuesses = 8;
 	icMin = 1;
-	icMax = 100;
+	icMax = 1000;
 	int icNumber;
 	srand(time(nullptr));
 	icNumber = rand() % icMax + icMin;
